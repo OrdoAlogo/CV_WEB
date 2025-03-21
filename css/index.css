@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: darkcyan;     margin: 0 auto;  padding: 1%;  
+}
+.foto-cv{
+    display: flex;    align-items: center;    justify-content: center; 
+}
+.enlaces{
+    margin: 0 auto;    display: flex;    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    margin: 0 auto;    display: flex;    flex-direction: row;
+    justify-content: space-around;    align-items: center;    width: 100%;
+}
+nav a{
+    text-decoration: none;    color: white;    font-weight: bold;
+    font-size: 1.1rem;    padding: 1%;    border-radius: 25% 0% 25% 0%;
+}
+nav a:hover{
+    color: darkcyan;    background: white;    text-decoration: underline;
+}
+.foto-cv img{
+    border-radius: 10%;
+}
+.cuerpo_cv{
+    margin: 0 auto;    width: 95%;
+}
+.caja{
+    border-bottom: 2px solid darkcyan;
+}
+.caja:target{
+    background: rgba(249, 249, 133, 0.363);
+}
+.presentacion{
+    width: 85%;    margin: 0 auto;    background: rgba(0, 139, 139, 0.326) ;
+}
+.presentacion h3{
+    color: darkcyan;    text-align: center;
+}
+.presentacion p{
+    text-align: center;    margin: 0;    font-weight:400px;
+}
+span{
+    font-weight: bold;
+}
+
+.contenido{
+    width: 80%;    margin: 0 auto;
+}
+.contenido h5{
+    color: rgb(168, 3, 3);
+}
+.formacion h3, .experiencia h3, .datos h3{
+    color: darkcyan;
+}
+.contenido p{
+    margin: 0;    text-align: justify;    font-size: 1rem;
+}
+.marquee {
+    display: flex;    flex-direction: row;    justify-content:space-between;
+    justify-items: center;
+}
+footer{
+    background: rgba(61, 66, 66, 0.813);
+}
+footer p{
+    margin:0;    text-align: center;    font-weight: bold;
+}
+footer p i{
+    color:rgb(247, 247, 9);
+}
+footer h5{
+    text-align: center;    color: white;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+}
+.imprimir{
+    margin-left: 2%;
+}
+
+@keyframes marqueeHorizontalUp {
+    50% { transform: translateX(-50%); }
+    50% { transform: translateX(-10%); }
+}
+.marquee-horizontal-up{
+    animation:marqueeHorizontalUp 5s ease-in-out infinite reverse;
+}
+
+
+
+@keyframes marqueeHorizontalDown {
+    50% { transform: translateX(50%); }
+    50% { transform: translateX(10%); }
+}
+
+.marquee-horizontal-down {
+    animation: marqueeHorizontalDown 5s ease-in-out infinite;
+}
+
+
+@media print {
+    marquee {
+        animation: none !important; /* Detiene la animación */
+        overflow: visible !important; /* Muestra todo el contenido */
+        white-space: normal !important; /* Permite saltos de línea */
+        display: block !important; /* Asegura que se vea */
+    }
+}
