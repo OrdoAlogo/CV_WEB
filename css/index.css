@@ -2,9 +2,8 @@
     margin: 0;
 }
 body{
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;    margin: 0 auto;    padding: 0;
+    width: 95%; 
 }
 
 header{
@@ -36,7 +35,7 @@ nav a:hover{
     border-radius: 10%;
 }
 .cuerpo_cv{
-    margin: 0 auto;    width: 95%;
+    margin: 0 auto; 
 }
 .caja{
     border-bottom: 2px solid darkcyan;
@@ -45,27 +44,33 @@ nav a:hover{
     background: rgba(249, 249, 133, 0.363);
 }
 .presentacion{
-    width: 85%;    margin: 0 auto;    background: rgba(0, 139, 139, 0.326) ;
+    margin: 0 auto;    background: rgba(0, 139, 139, 0.326) ;
 }
 .presentacion h3{
-    color: darkcyan;    text-align: center;
+    color: rgb(254, 14, 1);    text-align: center;
 }
 .presentacion p{
     text-align: center;    margin: 0;    font-weight:400px;
 }
 span{
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .contenido{
-    width: 80%;    margin: 0 auto;
+    width: 90%;    margin: 0 auto;
 }
 .contenido h5{
-    color: rgb(168, 3, 3);
+    color: rgb(3, 3, 3);
 }
 .formacion h3, .experiencia h3, .datos h3{
-    color: darkcyan;
+    color: rgb(0, 139, 139);
 }
+
+.chinchetas::before{
+    content: "📌"; /* Chincheta emoji */
+    margin-right: 8px;    
+}
+
 .contenido p{
     margin: 0;    text-align: justify;    font-size: 1rem;
 }
@@ -123,3 +128,19 @@ footer h5{
         display: block !important; /* Asegura que se vea */
     }
 }
+#btnArriba {
+    position: fixed;
+    bottom: 10px;
+    right: 5%;
+    color: rgb(0, 139, 139);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none; /* Ocultar al inicio */
+}
+
+#btnArriba:hover{
+    background-color:rgb(0, 139, 139);
+    color: white;
+}
+
