@@ -12,6 +12,9 @@ header{
 .foto-cv{
     display: flex;    align-items: center;    justify-content: center; 
 }
+.foto-cv img:hover{
+    opacity: 0.5;
+}
 .enlaces{
     margin: 0 auto;    display: flex;    justify-content: center;
     align-items: center;
@@ -67,8 +70,10 @@ span{
 }
 
 .chinchetas::before{
-    content: "📌"; /* Chincheta emoji */
-    margin-right: 8px;    
+    content: "📌";    margin-right: 8px;    
+}
+.span{
+    color:rgb(148, 52, 52);
 }
 
 .contenido p{
