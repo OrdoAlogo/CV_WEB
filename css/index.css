@@ -65,7 +65,7 @@ span{
 .contenido h5{
     color: rgb(3, 3, 3);
 }
-.formacion h3, .experiencia h3, .datos h3{
+.formacion h3, .experiencia h3, .aptitudes h3{
     color: rgb(0, 139, 139);
 }
 
@@ -105,9 +105,19 @@ footer h5{
     margin-left: 2%;
 }
 
+.datos_interes{
+    margin: 0 auto; width: 90%;
+}
+.datos_interes h4{
+    text-align: center; color: rgb(0, 139, 139); margin-bottom: 1%;
+}
+.datos_interes p{
+    text-align: justify;
+}
+
 @keyframes marqueeHorizontalUp {
-    50% { transform: translateX(-50%); }
-    50% { transform: translateX(-10%); }
+    50% { transform: translateX(-40%); }
+    50% { transform: translateX(-5%); }
 }
 .marquee-horizontal-up{
     animation:marqueeHorizontalUp 5s ease-in-out infinite reverse;
@@ -116,8 +126,8 @@ footer h5{
 
 
 @keyframes marqueeHorizontalDown {
-    50% { transform: translateX(50%); }
-    50% { transform: translateX(10%); }
+    50% { transform: translateX(40%); }
+    50% { transform: translateX(5%); }
 }
 
 .marquee-horizontal-down {
