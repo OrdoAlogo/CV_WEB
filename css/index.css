@@ -106,10 +106,11 @@ footer h5{
 }
 
 .datos_interes{
-    margin: 0 auto; width: 90%;
+    margin: 0 auto; width: 100%; padding: 2%; background: rgba(0, 139, 139, 0.326) ;
 }
+
 .datos_interes h4{
-    text-align: center; color: rgb(0, 139, 139); margin-bottom: 1%;
+    text-align: center; color: red; margin-bottom: 1%;
 }
 .datos_interes p{
     text-align: justify;
