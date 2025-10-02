@@ -8,6 +8,7 @@ body{
 
 header{
     background: rgb(0, 76, 139);     margin: 0 auto;  padding: 1%; height: 6rem; 
+    border-bottom: 2px solid white; height: auto;
 }
 .foto-cv{
     display: flex;    align-items: center;    justify-content: center; 
@@ -44,7 +45,7 @@ nav a:hover{
     border-bottom: 2px solid rgb(0, 76, 139);;
 }
 .caja:target{
-    background: rgba(249, 249, 133, 0.363);
+    background: wheat
 }
 .presentacion{
     margin: 0 auto;    background: rgb(0, 76, 139);
