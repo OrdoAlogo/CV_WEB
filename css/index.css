@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    background: rgb(0, 76, 139);     margin: 0 auto;  padding: 1%; height: 6rem; 
+    background: gray;     margin: 0 auto;  padding: 1%; height: 6rem; 
     border-bottom: 2px solid white; height: auto;
 }
 .foto-cv{
@@ -29,7 +29,7 @@ nav ul{
     align-items: center;   width: 100%;
 }
 nav a{
-    text-decoration: none;    color: wheat;    font-weight: bold;
+    text-decoration: none;    color: white;    font-weight: bold;
     font-size: 1.1rem;    padding: 1%;    border-radius: 25% 0% 25% 0%;
 }
 nav a:hover{
@@ -39,19 +39,19 @@ nav a:hover{
     border-radius: 10%;
 }
 .cuerpo_cv{
-    margin: 0 auto; 
+    margin: 0 auto; background-color: ghostwhite;
 }
 .caja{
     border-bottom: 2px solid rgb(0, 76, 139);;
 }
 .caja:target{
-    background: rgba(171, 243, 201, 0.74)
+    background: rgba(89, 97, 92, 0.199)
 }
 .presentacion{
-    margin: 0 auto;    background: rgb(0, 76, 139);
+    margin: 0 auto;    background: gray;
 }
 .presentacion h3{
-    color: orange;    text-align: center;
+    color: white;    text-align: center;
 }
 .presentacion p{
     text-align: center;    margin: 0;    font-weight:400px; color: white;
@@ -85,16 +85,16 @@ span{
     justify-items: center;
 }
 footer{
-    background: rgba(61, 66, 66, 0.813);
+    background: black;
 }
 footer p{
-    margin:0;    text-align: center;    font-weight: bold;
+    margin:0;    text-align: center; color: white;   font-weight: bold;
 }
 footer p i{
     color:rgb(247, 247, 9);
 }
-footer h5{
-    text-align: center;    color: white;
+footer h4{
+    text-align: center;  text-decoration: underline; font-weight: bold;  color: white;
 }
 
 .marquee {
@@ -107,14 +107,15 @@ footer h5{
 }
 
 .datos_interes{
-    margin: 0 auto; width: 100%; padding: 2%; background: rgba(0, 76, 139, 0.63);
+    margin: 0 auto; width: 100%; padding: 2%; background: gray;
 }
 
 .datos_interes h4{
     text-align: center; color: white; margin-bottom: 1%;
 }
+.datos_interes h5{color: white;}
 .datos_interes p{
-    text-align: justify;
+    text-align: justify; color: black;
 }
 
 @keyframes marqueeHorizontalUp {
