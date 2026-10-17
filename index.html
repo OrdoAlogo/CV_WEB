@@ -1,190 +1,286 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORDO - C.V WEB</title>
-    <link rel="icon" type="image/png" href="img/foto_cv.jpg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
-    <!--
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORDOÑO NDONG -C.V WEB</title>
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
 </head>
 <body>
-    <header>
-        <div class="row">
-            <div class="col-sm-4 col-md-3 col-lg-2 foto-cv">
-                <a href="">
-                    <img src="img/foto_cv.jpg" alt="foto_cv" height="120">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-9 col-lg-10 enlaces">
-                <nav class="navbar navbar-expand-md">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#formacion">Formación <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experiencia">Experiencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#aptitudes">Aptitudes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li> 
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <div class="cuerpo_cv">
-        <div class="presentacion caja">
-            <h3>Ordoño Ndong Ncogo Alogo</h3>
-            <p>Soy profesional con más de cuatro años de experiencia en el mundo de la programación </p>
-            <p>Me destaco por mi capacidad de adaptación, sin miedo a asumir responsabilidades y enfocado en mejorar constantemente.</p>
-            <p>Comprometido con aportar valor a los proyectos y aprender continuamente en entornos dinámicos</p>
-        </div>
-        <div class="formacion caja" id="formacion">
-            <h3>Formación Técnica</h3>
-            <div class="contenido">
-                <h5>Tco Superior en Desarrollo de Apps WEB</h5>
-                <p>Grado realizado en el centro integrado de formación profesional <span>TXURDINAGA LHII</span>, en Bilbao durante el periodo 2019-2021. Prácticas realizadas en la empresa <span>Bosonit</span> Bilbao.</p>
-            </div>
-            <div class="contenido">
-                <br>
-                <h5>Tco Superior en Administracion y Finanzas</h5>
-                <p>Formación cursada en el centro concertado <span>Santa Mª de Artagan</span>, en Bilbao de 2014 hasta 2016</p>
-                <p>Prácticas realizadas en la empresa <span>S.D Logística S.L</span>, en Derio.</p>    
-            </div>
-        </div>
-        <div class="experiencia caja" id="experiencia">
-            <h3>Experiencia Laboral</h3>
-            <div class="contenido">
-                <h5>Analista Programador en AYESA <span>(Oct 2025 - actualidad)</span></h5>
-                <p>Trabajando en proyectos de Iberdrola</p>
-                <p class="chinchetas"><span class="span">Línea técnica de la MAC Internacional: </span>La parte back-end de la web comercial internacional de Iberdrola.<br> Ahí implemento soluciones a vulnerabilidades reportadas por el equipo de ciberseguridad, aplicando mejores prácticas y medidas que garanticen resultados óptimos </p>
-            </div>
-            <div class="contenido">
-                <br>
-                <h5>Programador en AYESA <span>(2022 - Oct 2025)</span></h5>
-                <p>Trabajando en proyectos de Iberdrola</p>
-                <p class="chinchetas"><span class="span">Apps Servicios Comunes Digital:</span> Ciclo de vida completo, desde desarrollos hasta puesta en producción.
-Tenía a cargo tres aplicaciones, en ellas migraba servicios REST que posteriormente implementaba en aplicaciones cliente.<br>De estos servicios consume la web comercial de Iberdrola tanto parte de España como internacional </p>
-                <p class="chinchetas"><span class="span">Apps Procesos Batch Digitales:</span> ciclo completo, desarrollaba procesos batch los cuales se encargaban de parametrizar y anonimizar datos en la bbdd, ambos ejecutándose de forma independiente y con lógica, planificación distinta.</p>
-                <p class="chinchetas"><span class="span">Equipo de BBDD:</span> En Oracle realizando operaciones CRUD y DDL en todos los entornos, gestión de usuarios (altas, bajas, permisos), migración de tablas.
-                <br>DB2 y PostGre realizando consultas y gestion de conexiones para algunas aplicaciones 
-                </p>
-            </div>
-            <div class="contenido">
-                <br>
-                <h5>Programador Junior en THE WHITE TEAM <span>(2021 - 2022)</span></h5>
-                <p>Estuve colaborando de forma externa con Ibermática ahora Ayesa hasta que me incorporaron en su plantilla interna.</p>
-                <p>Realizaba tareas como transformación de servicios EJB a REST, calidad de codigo, despliegues y otras tareas</p>
-            </div>
-        </div>
-        <div class="aptitudes caja" id="aptitudes">
-            <h3>Aptitudes</h3>
-            <div class="contenido">
-                <h5>Lenguajes de programación y tecnologías conocidas</h5>
-                <div class="row">
-                    <div class="col-12">          
-                        <div class="marquee marquee-horizontal-up">
-                            <img src="img/java-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/php-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/python-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/html-5-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/javascript-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/bootstrap-svgrepo-com.svg" alt="" height="40"> 
-                            <img src="img/angular-icon.svg" alt="" height="40"> 
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="marquee marquee-horizontal-down">
-                            <img src="img/laravel-2.svg" alt="" height="40">
-                            <img src="img/postman-icon-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/swagger-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/database-svgrepo-com.svg" alt="" height="40">
-                            <img src="img/visualstudio-svgrepo-com.svg" alt="" height="40"> 
-                            <img src="img/spring-3.svg" alt="" height="40">
-                            <img src="img/eclipseide-svgrepo-com.svg" alt="" height="40">
-                        </div>
-                    </div>
-                    <div class="col-12">          
-                        <div class="marquee marquee-horizontal-up">
-                            <img src="img/github-142-svgrepo-com.svg" alt="" height="40"> 
-                            <img src="img/jenkins-svgrepo-com.svg" alt="" height="40"> 
-                            <img src="img/sonarqube-1.svg" alt="" height="40">
-                            <img src="img/filezilla-logo.svg" alt="" height="40">
-                            <img src="img/jira-1.svg" alt="" height="40">
-                            <img src="img/office-2.svg" alt="" height="40">
-                        </div>
-                    </div>
-                    <p>A nivel profesional programo en Java con Spring Boot, pero personalmente trabajo en pequeños proyectos con Php (Laravel) y Python.</p>   
-                    <p>También trabajo con herramientas, tales como:</p>
-                    <ul>
-                        <li><span>OpenShif</span>: tecnología donde desplegamos algunas aplicaciones, y motinorizamos las mismas en todos los entornos</li>
-                        <li><span>Control-M</span>: herramienta donde tenemos configuradas las cadenas para ejecutar los procesos BATCH de las aplicaciones</li>
-                        <li><span>Elastic</span>: Ahí revisamos los logs de todas las aplicaciones y en todos los entornos</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+<div class="cv">
+
+  <!-- ── SIDEBAR ─────────────────────────────────────── -->
+  <aside class="sidebar">
+
+    <div class="photo">
+      <img src="img/foto_cv.jpg" alt="Foto Ordoño">
     </div>
 
-    <button class="btn btn-warning mt-1 mb-1" data-toggle="collapse" href="#miCaja" role="button" aria-expanded="false" aria-controls="miCaja">Saber más...</button>
-    
-    <div class="collapse mt-1 datos_interes" id="miCaja">
-        <h4>PROYECTOS PERSONALES</h4>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 datos">
-                <h5>Asistente virtual</h5>
-                <p>Este proyecto lo desarrollé en <span>Python</span>, una asistente con reconocimiento de voz integrado, da respuestas oralmente con una interface visual y graficos que fluyen según su el tono de su voz mientras habla</p>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 datos">
-                <h5>App sistema sanitario</h5>
-                <p>Desarrollada con <span>PHP Laravel 8</span>, pensada para gestionar el sistema sanitario a nivel nacional, incluye la gestión de usuarios.</p>
-                <p>En ella se puede realizar gestiones como: solicitudes de tarjeta sanitaria, consultar el historial clinico de un paciente</p>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 datos">
-                <h5>Calculadora personalizada</h5>
-                <p>En mi primer año de formación desarrollé una calculadora personalizada con <span>Java</span>, dicha calculadora tiene una imagen de fondo y botones con colores personalizados</p>
-            </div>
-        </div>
+    <div class="name">Ordoño Ndong<br>Ncogo Alogo</div>
 
+    <div class="role">
+      Analista Programador<br>
+      Java · Angular · Cloud · DevOps
     </div>
-    <footer class="contacto" id="contacto">
-        <h4>DATOS DE CONTACTO</h4>
-        <div>
-            <p><i class="bi bi-telephone"></i> : 602 822 566</p>
-            <p><i class="bi bi-envelope"></i> : ncogo92@gmail.com</p>
-            <p><i class="bi bi-linkedin"></i> : <a href="http://www.linkedin.com/in/ordo-ndong" target="_blank">Ordoño Ndong</a></p>
-            <p><i class="bi bi-signpost"></i> : Bilbao - Bizkaia</p>
-            <button class="btn btn-outline-light mb-2 imprimir" onclick="window.print();"><i class="bi bi-printer"></i></button>
-            <button id="btnArriba" class="btn btn-light" onclick="scrollArriba()"><i class="bi bi-arrow-up-square-fill"></i></button>
-        </div>
-    </footer>
-<script>
-    // Mostrar el botón cuando el usuario baja un poco
-    window.onscroll = function() {
-        var boton = document.getElementById("btnArriba");
-        if (document.documentElement.scrollTop > 100) {
-            boton.style.display = "block";
-        } else {
-            boton.style.display = "none";
-        }
-    };
 
-    // Función para volver arriba suavemente
-    function scrollArriba() {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-</script>
+    <!-- Contacto -->
+    <div class="sidebar-section contact">
+      <div class="sidebar-title">Contacto</div>
+      <p>📍 Bilbao, España</p>
+      <p>📧 ncogo92@gmail.com</p>
+      <p>📱 +34 602 822 566</p>
+      <p>💼 <a href="https://www.linkedin.com/in/ordo-ndong" target="_blank">Mi LinkedIn</a></p>
+    </div>
+
+    <!-- Tecnologías -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">Tecnologías</div>
+      <div class="tech-grid">
+        <div class="tech"><i class="devicon-java-plain"></i>Java</div>
+        <div class="tech"><i class="devicon-spring-plain"></i>Spring Boot</div>
+        <div class="tech"><i class="devicon-apache-plain"></i>Maven</div>
+        <div class="tech"><i class="devicon-php-plain"></i>PHP</div>
+        <div class="tech"><i class="devicon-laravel-plain"></i>Laravel</div>
+        <div class="tech"><i class="devicon-angularjs-plain"></i>Angular</div>
+        <div class="tech"><i class="devicon-typescript-plain"></i>TypeScript</div>
+        <div class="tech"><i class="devicon-oracle-original"></i>Oracle</div>
+        <div class="tech"><i class="devicon-postgresql-plain"></i>PostgreSQL</div>
+        <div class="tech"><i class="devicon-azure-plain"></i>Azure AKS</div>
+        <div class="tech"><i class="devicon-redhat-plain"></i>OpenShift</div>
+        <div class="tech"><i class="devicon-github-original"></i>GitHub</div>
+        <div class="tech"><i class="devicon-githubactions-plain"></i>Actions</div>
+        <div class="tech"><i class="devicon-jenkins-line"></i>Jenkins</div>
+        <div class="tech"><i class="devicon-vscode-plain"></i>VS Code</div>
+        <div class="tech"><i class="devicon-eclipse-plain"></i>Eclipse</div>
+      </div>
+    </div>
+
+    <!-- Competencias -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">Competencias</div>
+      <div class="skill"><div class="skill-name">Swagger / OpenAPI</div><div class="bar"><div class="fill" style="width:95%"></div></div></div>
+      <div class="skill"><div class="skill-name">Postman</div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill"><div class="skill-name">Maven</div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill"><div class="skill-name">SonarQube</div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill"><div class="skill-name">GitHub Actions</div><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+      <div class="skill"><div class="skill-name">Jenkins</div><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+      <div class="skill"><div class="skill-name">Visual Studio Code</div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill"><div class="skill-name">Eclipse IDE</div><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+    </div>
+
+    <!-- Idiomas -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">Idiomas</div>
+      <p>🇪🇸 Español — Nativo</p>
+      <p>🇬🇧 Inglés — B1</p>
+      <p>🇫🇷 Francés — B2</p>
+    </div>
+
+    <!-- Formación -->
+    <div class="sidebar-section">
+      <div class="sidebar-title">🎓 Formación</div>
+
+      <div class="edu-item">
+        <strong>Grado en Ingeniería Informática</strong>
+        <div class="edu-center">UOC — Universitat Oberta Catalunya</div>
+        <div class="edu-date">En curso</div>
+      </div>
+
+      <div class="edu-item">
+        <strong>Técnico Superior DAW</strong>
+        <div class="edu-center">CIFP Txurdinaga · Bilbao</div>
+        <div class="edu-date">2019 – 2021</div>
+      </div>
+
+      <div class="edu-item">
+        <strong>Técnico Superior en Administración y Gestión de Empresas</strong>
+        <div class="edu-center">CIFP Santa María de Artagan · Bilbao</div>
+        <div class="edu-date">2014 – 2016</div>
+      </div>
+    </div>
+
+    <!-- Logros — fluye tras formación, sin salto forzado -->
+    <div class="sidebar-section sidebar-logros">
+      <div class="sidebar-title">🏆 Logros Destacados</div>
+      <div class="achievement">🚀 Puesta en producción de <strong>WSCDECLO</strong></div>
+      <div class="achievement">🚀 Puesta en producción de <strong>WSCSIDAT</strong></div>
+      <div class="achievement">🚀 Puesta en producción de <strong>WSCDELTA</strong></div>
+      <div class="achievement">🚀 Puesta en producción de <strong>DIGITKPI</strong></div>
+      <div class="achievement">🔄 Participación en migraciones <strong>EJB → REST</strong></div>
+      <div class="achievement">🛡️ Remediación de vulnerabilidades y mejora continua de la calidad del software</div>
+    </div>
+
+  </aside>
+
+  <!-- ── CONTENIDO PRINCIPAL ──────────────────────────── -->
+  <main class="content">
+
+    <div class="main-title">Perfil Profesional</div>
+
+    <div class="profile">
+      Analista Programador con 5 años de experiencia en desarrollo de software empresarial.
+      Especializado en Java, Spring Boot, APIs REST, Angular y bases de datos Oracle.
+      Experiencia en modernización de aplicaciones, procesos batch, testing automatizado,
+      OpenShift, Azure AKS, CI/CD y desarrollo frontend con Angular.
+    </div>
+
+    <div class="main-title">Experiencia Profesional</div>
+
+    <!-- Trabajo 1 -->
+    <div class="job-card">
+      <div class="job-header">
+        <div class="job-title">Analista Programador</div>
+        <div class="job-date">2025 – Actualidad</div>
+      </div>
+      <div class="company">AYESA · Iberdrola MAC Internacional</div>
+      <div class="job-desc">
+        Integrado en la Línea Técnica de la MAC Internacional de Iberdrola, participando en la
+        evolución y mantenimiento de aplicaciones que dan soporte a la actividad comercial
+        internacional, garantizando calidad, seguridad, despliegues y estabilidad sobre entornos cloud.
+        <P>Destacar tambien que tengo bajo mi supervisio a un desarrollador al cual he de dar soporte, revision de codigo y creacion o refinamiento de tareas.</P>
+      </div>
+
+      <h4>Aplicaciones comerciales internacionales</h4>
+      <p>
+        Desarrollo y mantenimiento de soluciones que soportan la contratación, consulta y gestión
+        de clientes en distintos mercados europeos, participando tanto en backend como en frontend.
+      </p>
+
+      <div class="apps">
+        <span class="badge">WEBCLIMI - OpenShift</span>
+        <span class="badge">WCLIFREU (IT · FR · PT) - Azure AKS</span>
+        <span class="badge">WCLIFRPT (PT) - Azure AKS</span>
+      </div>
+
+      <ul>
+        <li>Backend de WEBCLIMI con Java y Spring Boot.</li>
+        <li>Soporte frontend Angular en WCLIFREU y WCLIFRPT.</li>
+        <li>Remediación de vulnerabilidades y mejora continua.</li>
+        <li>GitHub Actions, SonarQube y CI/CD.</li>
+        <li>Despliegues en OpenShift y Azure AKS.</li>
+      </ul>
+    </div>
+
+    <!-- Trabajo 2 -->
+    <div class="job-card">
+      <div class="job-header">
+        <div class="job-title">Programador</div>
+        <div class="job-date">2022 – 2025</div>
+      </div>
+      <div class="company">AYESA · Iberdrola</div>
+      <div class="job-desc">
+        Participación en el desarrollo, evolución y mantenimiento de aplicaciones corporativas
+        de Iberdrola, especializándome en migración de servicios REST, desarrollo de procesos
+        batch, soporte productivo y colaboración con el equipo de bases de datos.
+      </div>
+
+      <div class="apps">
+        <span class="badge">WSCDECLO - Azure AKS</span>
+        <span class="badge">WSCSIDAT - OpenShift</span>
+        <span class="badge">WSCDELTA - OpenShift</span>
+        <span class="badge">DIGITKPI - OpenShift</span>
+      </div>
+
+      <h4>🔄 Modernización de Servicios REST</h4>
+      <p>
+        Participación en la migración, desarrollo, implementación y mantenimiento de servicios REST
+        para WSCDECLO, WSCSIDAT y WSCDELTA utilizando Spring Boot, MyBatis, Oracle y DB2.
+        Los servicios eran consumidos por aplicaciones internas las cuales sirven de datos a distintos canales del Iberdrola: WEB, APP, B2B de clientes tanto en España como a nivel Internacional
+      </p>
+
+      <h4>⚙️ Procesos Batch</h4>
+      <p>
+        Desarrollo y mantenimiento de procesos batch en DIGITKPI, orientados al tratamiento e
+        integración de datos mediante Control-M para su planificación y OpenShift para su ejecución.
+      </p>
+      <p>
+        El <strong>ANONIMIZADOR</strong> anonimiza datos de exclientes de Iberdrola a nivel de BBDD.
+        El <strong>PARAMETRIZADOR</strong> parametriza datos en BBDD a petición de los desarrolladores.
+      </p>
+
+      <h4>🧪 Testing Automatizado</h4>
+      <p>
+        Desarrollo de pruebas unitarias e integración con JUnit y Mockito para validar la lógica
+        de negocio, simular dependencias y mejorar la cobertura de código en los servicios backend.
+      </p>
+
+      <h4>🗄️ Equipo de Bases de Datos</h4>
+      <p>
+        Colaboración activa con el equipo de BBDD realizando operaciones CRUD y DDL sobre Oracle,
+        gestión de usuarios y permisos, migración de tablas, consultas sobre DB2 y PostgreSQL
+        y soporte a aplicaciones corporativas.
+      </p>
+
+      <h4>☁️ Operación y Soporte Productivo</h4>
+      <p>
+        Análisis y resolución de incidencias mediante Elastic Stack, OpenShift y Azure AKS,
+        participando en despliegues, monitorización y automatización CI/CD con Jenkins y GitHub Actions.
+      </p>
+
+      <ul>
+        <li>Migración de servicios REST con Spring Boot y Maven</li>
+        <li>Testing unitario con JUnit y Mockito.</li>
+        <li>Desarrollo de procesos batch con Spring Boot y Maven.</li>
+        <li>Monitorización mediante Elastic, consolas de OpenShift y Azure.</li>
+        <li>Participación activa en el equipo de BBDD.</li>
+        <li>Gestión Oracle, DB2 y PostgreSQL.</li>
+        <li>Gestion de despliegues con Jenkins, GitHub Actions y CI/CD.</li>
+      </ul>
+    </div>
+
+    <!-- Trabajo 3 -->
+    <div class="job-card">
+      <div class="job-header">
+        <div class="job-title">Programador Junior</div>
+        <div class="job-date">2021 – 2022</div>
+      </div>
+      <div class="company">THE WHITE TEAM</div>
+      <div class="job-desc">
+        Colaboración externa para Iberdrola en proyectos gestionados por Ibermática (actual Ayesa),
+        participando en iniciativas de modernización tecnológica y evolución de aplicaciones legacy.
+      </div>
+
+      <h4>Modernización de aplicaciones corporativas</h4>
+      <p>
+        Participación en WEBCLIBK (MAC España) durante su transición desde entornos WebSphere
+        hacia OpenShift, colaborando en la transformación de servicios EJB a arquitecturas REST
+        basadas en Java 8.
+      </p>
+    </div>
+
+    <!-- Proyecto personal — SIEMPRE en página 2 -->
+    <div class="main-title main-title-p2">Proyecto Personal Destacado</div>
+
+    <div class="project">
+      <h3>Sistema de Gestión Sanitaria</h3>
+      <p>
+        Aplicación web desarrollada con Laravel para la gestión integral de pacientes,
+        consultas médicas, recetas y usuarios con distintos perfiles de acceso.
+      </p>
+      <ul>
+        <li>Gestión de pacientes.</li>
+        <li>Consultas médicas.</li>
+        <li>Recetas.</li>
+        <li>Usuarios y permisos.</li>
+        <li>Autenticación y autorización.</li>
+      </ul>
+      <div class="tags">
+        <span>PHP</span>
+        <span>Laravel</span>
+        <span>MySQL</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>Git</span>
+      </div>
+    </div>
+
+  </main>
+
+</div>
 </body>
 </html>
